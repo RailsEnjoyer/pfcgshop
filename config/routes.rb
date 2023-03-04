@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  post '/components', to: 'components#create'
+  patch '/components/:id', to: 'components#update'
+  delete '/components/:id', to: 'components#destroy'
 end

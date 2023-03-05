@@ -25,4 +25,8 @@ class ComponentsController < ApplicationController
     def show 
         @component = Component.find(params[:id])
     end
+
+    def index 
+        @components = Component.all
+    end
 end

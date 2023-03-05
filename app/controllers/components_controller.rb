@@ -29,4 +29,9 @@ class ComponentsController < ApplicationController
     def index 
         @components = Component.all
     end
+
+    def new
+        
+    end
+    
 end

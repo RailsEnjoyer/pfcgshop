@@ -1,5 +1,5 @@
 <h2>Components</h2>
 
 <% @components.each do |component| %>
-  <p>Component <%= component.id %></p>
+  <p><%= link_to "Component #{component.id}", "/components/#{component.id}" %></p>
 <% end %>

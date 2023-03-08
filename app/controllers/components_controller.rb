@@ -33,5 +33,4 @@ class ComponentsController < ApplicationController
     def new
         
     end
-    
 end
